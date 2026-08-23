@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.corefix.cloud"
+        }
+      ],
+      "destination": "https://corefix.cloud/:path*",
+      "permanent": true
+    }
+  ]
+}
